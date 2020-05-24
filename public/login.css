@@ -1,30 +1,36 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background: #3498db;
+    background-image: url("background.jpg");
     margin: 0 auto 0 auto;
     width: 100%;
     text-align: center;
     margin: 20px 0px 20px 0px;
 }
 
-p {
-    font-size: 12px;
-    text-decoration: none;
-    color: #ffffff;
+#help {
+    text-align-last: left;
+    float: left;
+    width: 100px;
+    padding-left: 148px;
+    padding-top: 12px;
+    
 }
 
 h1 {
-    font-size: 1.5em;
+    padding-top: 0px;
+    margin-top:0px ;
+    font-size: 2.5em;
     color: #525252;
 }
 
 .box {
-    background: white;
-    width: 300px;
-    border-radius: 6px;
+    background: rgb(235, 236, 159);
+    width: 401px;
+    height: 333px;
+    border-radius: 68px;
     margin: 0 auto 0 auto;
-    padding: 0px 0px 70px 0px;
-    border: #2980b9 4px solid;
+    padding: 78px 0px 69px 1px;
+    border: #8d99ac 11px double;
 }
 
 .email {
@@ -34,14 +40,15 @@ h1 {
     padding: 8px;
     width: 250px;
     color: #aaaaaa;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 1em;
     border-radius: 4px;
+    
 }
 
 .password {
     border-radius: 4px;
-    background: #ecf0f1;
+    background:blueviolet;
     border: #ccc 1px solid;
     padding: 8px;
     width: 250px;
@@ -49,20 +56,19 @@ h1 {
 }
 
 .btn {
-    background: #2ecc71;
-    width: 125px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
-    border-radius: 4px;
-    border: #27ae60 1px solid;
-
-    margin-top: 20px;
+    background: rgb(34, 169, 151);
+    width: 145px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    color: #fbf5f5;
+    border-radius: 37px;
+    border: #5991a0 5px solid;
+    margin-top: 18px;
     margin-bottom: 20px;
     float: left;
-    margin-left: 16px;
+    margin-left: 123px;
     font-weight: 800;
-    font-size: 0.8em;
+    font-size: 22px;
 }
 
 .btn:hover {
@@ -70,22 +76,21 @@ h1 {
 }
 
 #btn2 {
-    float: left;
+    float: right;
     background: #3498db;
-    width: 125px;
+    width: 89px;
     padding-top: 5px;
     padding-bottom: 5px;
     color: white;
-    border-radius: 4px;
-    border: #2980b9 1px solid;
-
-    margin-top: 20px;
+    border-radius: 20px;
+    border: #2a6e9a 4px solid;
+    margin-top: 3px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-right: 34px;
     font-weight: 800;
     font-size: 0.8em;
 }
 
 #btn2:hover {
-    background: #3594d2;
+    background:#ebdc13;
 }
